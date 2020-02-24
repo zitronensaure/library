@@ -10,7 +10,7 @@ const StyledContainer = styled.div`
 const StyledLabel = styled.label`
     color: #868686;
     font-family: 'Fira Sans';
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
 `;
 

@@ -10,7 +10,7 @@ const APPEARANCES = {
 
 const StyledButton = styled.button`
     background-color: #000;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #fff;
     cursor: pointer;
     flex-shrink: 0;
