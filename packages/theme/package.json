@@ -10,6 +10,10 @@
     "publishConfig": {
         "access": "public"
     },
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
     "repository": "https://github.com/zitronensaure/library/tree/master/packages/theme",
     "gitHead": "45feda5746b586cf1a190e3b43dab5677d46167f"
 }
