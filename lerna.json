@@ -2,5 +2,23 @@
     "packages": ["packages/*"],
     "npmClient": "yarn",
     "useWorkspaces": true,
-    "version": "independent"
+    "version": "independent",
+    "command": {
+        "publish": {
+            "allowBranch": "master",
+            "conventionalCommits": true,
+            "message": "chore(release): updated release notes and package versions",
+            "ignoreChanges": [
+                "*.md",
+                "*.txt",
+                "test/**",
+                "**/test/**",
+                "codemods/**",
+                "# We ignore every JSON file, except for native-modules, built-ins and plugins defined in babel-preset-env/data.",
+                "@(!(native-modules|built-ins|plugins|package)).json",
+                "# Until the ESLint packages version are aligned with Babel's, we ignore them",
+                "eslint/**"
+            ]
+        }
+    }
 }
