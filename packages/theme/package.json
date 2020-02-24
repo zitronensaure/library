@@ -1,6 +1,6 @@
 {
     "name": "@zitronensaure/theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "lib/index.js",
     "module": "src/index.js",
     "gitHead": "45feda5746b586cf1a190e3b43dab5677d46167f"
