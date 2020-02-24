@@ -1,7 +1,7 @@
 {
     "name": "@zitronensaure/core-utils",
     "description": "@zitronensaure core-utils",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "Rafael Melón <info@rafaelmelon.com>",
     "homepage": "https://github.com/zitronensaure/library/tree/master/packages/core-utils#readme",
     "license": "MIT",
