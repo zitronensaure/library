@@ -1,5 +1,5 @@
 {
-    "name": "button",
+    "name": "@zitronensaure/button",
     "version": "0.0.1",
     "main": "lib/index.js",
     "module": "src/index.js",
@@ -8,11 +8,12 @@
         "react": "16.12.0",
         "react-dom": "16.12.0",
         "styled-components": "4.4.1",
-        "theme": "^0.0.1"
+        "@zitronensaure/theme": "^0.0.1"
     },
     "peerDependencies": {
         "react": "^15.0.0 || ^16.0.0",
         "react-dom": "^15.0.0 || ^16.0.0",
         "styled-components": "^4.0.0"
-    }
+    },
+    "gitHead": "45feda5746b586cf1a190e3b43dab5677d46167f"
 }

@@ -1,5 +1,8 @@
 {
     "name": "@zitronensaure/library",
+    "version": "0.0.1",
+    "author": "info@rafaelmelon.com",
+    "license": "MIT",
     "private": true,
     "workspaces": [
         "packages/*"
@@ -67,10 +70,7 @@
         "stylelint-processor-styled-components": "1.9.0",
         "webpack": "4.41.5"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/zitronensaure/library.git"
-    },
+    "repository": "git+https://github.com/zitronensaure/library.git",
     "bugs": {
         "url": "https://github.com/zitronensaure/library/issues"
     },

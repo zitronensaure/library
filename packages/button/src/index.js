@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
 import React from 'react';
-import {spacing} from 'theme';
+import {spacing} from '@zitronensaure/theme';
 import PropTypes from 'prop-types';
 
 const APPEARANCES = {
@@ -10,7 +10,7 @@ const APPEARANCES = {
 
 const StyledButton = styled.button`
     background-color: #000;
-    border-radius: 4px;
+    border-radius: 5px;
     color: #fff;
     cursor: pointer;
     flex-shrink: 0;

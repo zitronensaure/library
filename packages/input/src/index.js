@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
 import React from 'react';
-import {spacing} from 'theme';
+import {spacing} from '@zitronensaure/theme';
 import PropTypes from 'prop-types';
 
 const StyledContainer = styled.div`
@@ -10,7 +10,7 @@ const StyledContainer = styled.div`
 const StyledLabel = styled.label`
     color: #868686;
     font-family: 'Fira Sans';
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
 `;
 
