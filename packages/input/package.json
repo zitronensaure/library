@@ -2,7 +2,7 @@
     "name": "@zitronensaure/input",
     "description": "Component Input",
     "author": "Rafael Melón <info@rafaelmelon.com>",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "main": "lib/index.js",
     "module": "src/index.js",
     "homepage": "https://www.rafaelmelon.com",
@@ -15,7 +15,7 @@
         "src": "src"
     },
     "dependencies": {
-        "@zitronensaure/theme": "^0.2.0",
+        "@zitronensaure/theme": "^0.3.0",
         "prop-types": "15.7.2",
         "react": "16.12.0",
         "react-dom": "16.12.0",

@@ -2,7 +2,7 @@
     "name": "@zitronensaure/theme",
     "description": "Component Theme",
     "author": "Rafael Melón <info@rafaelmelon.com>",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "main": "lib/index.js",
     "module": "src/index.js",
     "homepage": "https://www.rafaelmelon.com",
