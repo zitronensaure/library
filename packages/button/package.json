@@ -1,8 +1,18 @@
 {
     "name": "@zitronensaure/button",
+    "description": "Component Button",
     "version": "0.1.0",
     "main": "lib/index.js",
     "module": "src/index.js",
+    "homepage": "https://www.rafaelmelon.com",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "directories": {
+        "lib": "lib",
+        "src": "src"
+    },
     "dependencies": {
         "@zitronensaure/theme": "^0.2.0",
         "prop-types": "15.7.2",
@@ -13,7 +23,8 @@
     "peerDependencies": {
         "react": "^15.0.0 || ^16.0.0",
         "react-dom": "^15.0.0 || ^16.0.0",
-        "styled-components": "^4.0.0"
+        "styled-components": "^4.4.1 || ^5.0.0"
     },
+    "repository": "https://github.com/zitronensaure/library/tree/master/packages/button",
     "gitHead": "45feda5746b586cf1a190e3b43dab5677d46167f"
 }

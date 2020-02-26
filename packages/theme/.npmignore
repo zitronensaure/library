@@ -1,3 +1,5 @@
+*.spec.js
+*.stories.js
 src
 test
 *.log

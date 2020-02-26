@@ -1,4 +1,14 @@
-import {shape, number, string, oneOf, oneOfType, arrayOf, func, bool, element} from 'prop-types';
+import {
+    shape,
+    number,
+    string,
+    oneOf,
+    oneOfType,
+    arrayOf,
+    func,
+    bool,
+    element
+} from "prop-types";
 
 export const optionType = shape({
     id: oneOfType([number, string, oneOf([null, undefined])]),
@@ -23,5 +33,3 @@ export const inputCheckboxType = shape({
 });
 
 export const optionsType = arrayOf(optionType);
-
-export default inputType;

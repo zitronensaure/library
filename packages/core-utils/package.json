@@ -1,30 +1,21 @@
 {
     "name": "@zitronensaure/core-utils",
-    "description": "@zitronensaure core-utils",
-    "version": "0.1.0",
+    "description": "Core utils",
     "author": "Rafael Melón <info@rafaelmelon.com>",
-    "homepage": "https://github.com/zitronensaure/library/tree/master/packages/core-utils#readme",
+    "version": "0.1.0",
+    "main": "lib/index.js",
+    "module": "src/index.js",
+    "homepage": "https://www.rafaelmelon.com",
     "license": "MIT",
-    "main": "lib/core-utils.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "directories": {
         "lib": "lib",
-        "test": "__tests__"
+        "src": "src"
     },
-    "files": [
-        "lib"
-    ],
     "dependencies": {
-        "immutable": "^4.0.0-rc.12",
         "prop-types": "15.7.2"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/zitronensaure/library.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1"
-    },
-    "bugs": {
-        "url": "https://github.com/zitronensaure/library/issues"
-    }
+    "repository": "https://github.com/zitronensaure/library/tree/master/packages/core-utils"
 }

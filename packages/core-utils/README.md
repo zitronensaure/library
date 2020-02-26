@@ -1,11 +1,15 @@
-# `core-utils`
+# @zitronensaure/core-utils
 
-> TODO: description
+## Install
 
-## Usage
+Using npm:
 
+```sh
+npm install --save @zitronensaure/core-utils
 ```
-const coreUtils = require('core-utils');
 
-// TODO: DEMONSTRATE API
+or using yarn:
+
+```sh
+yarn add @zitronensaure/core-utils
 ```
